@@ -119,7 +119,7 @@ p a{
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        margin: 4rem auto;
+        margin: 4rem 0;
     }
 
     .images img {
@@ -141,6 +141,40 @@ p a{
         /* max-height: 375px; */
         object-fit: cover;
         max-width: 550px;
+        
+    }
+}
+
+@media only screen and (max-width: 1300px) {
+    .images {
+        display: block;
+        text-align: center;
+        margin: 4rem 1rem;
+    }
+
+    .images img {
+        display: block;
+        text-align: center;
+        margin: 1rem auto;
+        width: min(475px, 95%);
+        max-height: 375px;
+        object-fit: cover;
+    }
+
+    .images2 {
+        display: block;
+        text-align: center;
+        margin: 4rem auto;
+    }
+    
+    .images2 img {
+        display: block;
+        text-align: center;
+        margin: 1rem auto;
+        width: min(400px, 80%);
+        max-height: auto;
+        object-fit: cover;
+        /* max-width: 550px; */
         
     }
 }
